@@ -1,0 +1,94 @@
+/* ===== RESET ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  }
+
+/* ===== SAYFA ===== */
+body {
+background: #1e1f26;
+color: white;
+display: flex;
+justify-content: center;
+align-items: start;
+height: 100vh;
+padding-top: 60px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+background: #2b2d3a;
+padding: 25px;
+border-radius: 12px;
+width: 400px;
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* ===== TITLE ===== */
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* ===== INPUT AREA ===== */
+.input-area {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+input {
+flex: 1;
+padding: 10px;
+border-radius: 6px;
+border: none;
+outline: none;
+}
+
+button {
+padding: 10px 15px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+background: #4c8bf5;
+color: white;
+font-weight: bold;
+transition: 0.2s;
+}
+
+button:hover {
+background: #3466c2;
+}
+
+/* ===== TODO LIST ===== */
+ul {
+list-style: none;
+}
+
+li {
+background: #3a3d4f;
+padding: 10px;
+border-radius: 6px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* tamamlandı görev */
+.done {
+text-decoration: line-through;
+opacity: 0.6;
+}
+
+/* sil butonu */
+.delete-btn {
+background: #ff4d4d;
+}
+
+.delete-btn:hover {
+background: #cc0000;
+}
